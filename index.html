@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
-    <nav class="flex items-center justify-between bg-white shadow-md rounded-xl px-6 py-2 w-full max-w-4xl mx-auto mt-4">
+
+<body class="bg-gray-100 p-6">
+    <nav
+        class="flex items-center justify-between bg-white rounded-xl px-6 py-2 w-full max-w-4xl mx-auto mt-4">
         <div class="flex items-center justify-between rounded-lg p-2 flex items-center justify-center">
             <div>
                 <img src="assets/logo.png" alt="">
@@ -23,5 +26,82 @@
         </div>
 
     </nav>
+
+    <!-- left and right sec -->
+    <div class="max-w-6xl mx-auto grid grid-cols-3 gap-6 mt-12">
+        <!-- left section -->
+        <div class="col-span-2 space-y-4">
+            <!-- top -->
+            <div class="grid grid-cols-3 gap-4">
+                <!-- task assigned -->
+                <div class="flex items-center items-center bg-white px-3 py-1 rounded-xl gap-4">
+                    <div>
+                        <img src="assets/checkbox.png" alt="">
+                    </div>
+                    <div class="">
+                        <p>Task Assigned</p>
+                        <h3 class="text-lg font-bold">05</h3>
+                    </div>
+                </div>
+                <!-- banner -->
+                <div class="bg-blue-500 text-white p-4 rounded-xl flex items-center justify-center">
+                    <p class="text-lg font-semibold">📄 Discover Something New Today!</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl text-center">
+                    <p class="text-gray-600">Wed,</p>
+                    <p class="text-xl font-bold text-gray-800">Jul 28 2025</p>
+                </div>
+            </div>
+            <!-- task cards -->
+            <div class="grid grid-cols-3 gap-4">
+                <div class="bg-[#F4F7FF] p-4 rounded-xl space-y-2">
+                    <p class="bg-white px-2 py-1 text-gray-600 text-sm font-medium rounded-md inline-block">ShopEase</p>
+                    <h3 class="text-lg font-semibold">Fix Mobile Button Issue</h3>
+                    <p class="bg-white rounded-lg p-2 text-gray-600 text-sm">Debug using Chrome DevTools, check for overlapping ...</p>
+                    <p class="text-sm text-gray-500">Deadline <br> <span class="font-bold">21 March 2025</span></p>
+                    <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-lg">Completed</button>
+                </div>
+                <div class="bg-[#F4F7FF] p-4 rounded-xl space-y-2">
+                    <p class="bg-white px-2 py-1 text-gray-600 text-sm font-medium rounded-md inline-block">CloudSync</p>
+                    <h3 class="text-lg font-semibold">Add Dark Mode</h3>
+                    <p class="bg-white rounded-lg p-2 text-gray-600 text-sm">Store the user's preference in localStorage, update CSS ...</p>
+                    <p class="text-sm text-gray-500">Deadline <br> <span class="font-bold">21 March 2025</span></p>
+                    <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-lg">Completed</button>
+                </div>
+                <div class="bg-[#F4F7FF] p-4 rounded-xl space-y-2">
+                    <p class="bg-white px-2 py-1 text-gray-600 text-sm font-medium rounded-md inline-block">SwiftPay</p>
+                    <h3 class="text-lg font-semibold">Optimize Home Page</h3>
+                    <p class="bg-white rounded-lg p-2 text-gray-600 text-sm">Debug using Chrome DevTools, check for overlapping ...</p>
+                    <p class="text-sm text-gray-500">Deadline <br> <span class="font-bold">21 March 2025</span></p>
+                    <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-lg">Completed</button>
+                </div>
+                <div class="bg-[#F4F7FF] p-4 rounded-xl space-y-2">
+                    <p class="bg-white px-2 py-1 text-gray-600 text-sm font-medium rounded-md inline-block">Meta</p>
+                    <h3 class="text-lg font-semibold">Add new emoji 👋</h3>
+                    <p class="bg-white rounded-lg p-2 text-gray-600 text-sm">Debug using Chrome DevTools, check for overlapping ...</p>
+                    <p class="text-sm text-gray-500">Deadline <br> <span class="font-bold">21 March 2025</span></p>
+                    <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-lg">Completed</button>
+                </div>
+                <div class="bg-[#F4F7FF] p-4 rounded-xl space-y-2">
+                    <p class="bg-white px-2 py-1 text-gray-600 text-sm font-medium rounded-md inline-block">Google LLC</p>
+                    <h3 class="text-lg font-semibold">Integrate OpenAI API</h3>
+                    <p class="bg-white rounded-lg p-2 text-gray-600 text-sm">Debug using Chrome DevTools, check for overlapping ...</p>
+                    <p class="text-sm text-gray-500">Deadline <br> <span class="font-bold">21 March 2025</span></p>
+                    <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-lg">Completed</button>
+                </div>
+                <div class="bg-[#F4F7FF] p-4 rounded-xl space-y-2">
+                    <p class="bg-white px-2 py-1 text-gray-600 text-sm font-medium rounded-md inline-block">Glassdoor</p>
+                    <h3 class="text-lg font-semibold">Improve Job Searching</h3>
+                    <p class="bg-white rounded-lg p-2 text-gray-600 text-sm">Debug using Chrome DevTools, check for overlapping ...</p>
+                    <p class="text-sm text-gray-500">Deadline <br> <span class="font-bold">21 March 2025</span></p>
+                    <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-lg">Completed</button>
+                </div>
+               
+            </div>
+            <div>
+
+            </div>
+        </div>
 </body>
+
 </html>
