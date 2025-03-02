@@ -18,7 +18,7 @@
         </div>
         <div class="flex items-center space-x-4">
             <div class="">
-                <button class="bg-blue-500 text-white px-3 py-1 text-sm rounded-md">Previous page</button>
+                <button id="previous" class="bg-blue-500 text-white px-3 py-1 text-sm rounded-md">Previous page</button>
             </div>
             <img src="assets/theme-btn.png" alt="">
         </div>
@@ -75,6 +75,11 @@
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('previous').addEventListener('click' , function(){
+            window.location.href = "index.html";
+        })
+    </script>
 </body>
 
 </html>
